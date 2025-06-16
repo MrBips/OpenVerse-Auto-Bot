@@ -12,7 +12,7 @@ import { ethers } from 'ethers';
 import net from 'net';
 
 // === Cấu hình Tor ControlPort ===
-const TOR_CONTROL_PASSWORD = 'nchien96';
+const TOR_CONTROL_PASSWORD = '.....'; // mat khau tor
 
 const logger = {
   info: (msg, options = {}) => {
@@ -286,7 +286,7 @@ async function login(privateKey, proxy, context) {
 
     const payload = {
       address: address,
-      referral_code: '0x897D3435F5b770e04Ffe70981807Ee3076bDdf74',
+      referral_code: null,
       sign: sign
     };
     const payloadString = JSON.stringify(payload);
