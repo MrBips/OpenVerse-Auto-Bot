@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/a9806beb-6a0a-4f82-9884-95f507419281)
+
 # OpenVerseAutoBot
 
 **OpenVerseAutoBot** là một công cụ tự động hoàn thành các nhiệm vụ hàng ngày trên nền tảng OpenVerse. Bot sử dụng private key ví Ethereum để đăng nhập, thực hiện nhiệm vụ, đổi IP qua Tor, và hỗ trợ proxy SOCKS5.
